@@ -1,0 +1,25 @@
+{
+    "name": "Chintanvpatel/kafka-connect-php-api",
+    "description": "Kafka Connect PHP Rest Client",
+    "version": "1.0.0",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Chintan Patel",
+            "email": "chintan.patel@qdata.io"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+	"require-dev": {
+            "phpunit/phpunit": "5.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "KafkaConnectClient\\": "src/"
+        },
+        "files": ["src/KafkaConnect.php"]
+    }
+}
